@@ -1,3 +1,6 @@
+// Copyright (C) 2026 Jonathan f(n) Reed
+// License: GNU Affero General Public License (AGPL-3.0)
+
 // 1. Package definition
 package WhittakerTypes;
     typedef logic signed [31:0] fixed_t;
