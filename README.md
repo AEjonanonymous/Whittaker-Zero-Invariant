@@ -65,3 +65,39 @@ Asymmetric Mode | Alpha=1 | Output=800 | Detected=1
 testbench.sv:70: $finish called at 46 (1s)
 Done
 ```
+
+---
+
+## ⚖️ Software IP Licensing & Commercial Terms
+
+* **Open-Source License:** This software IP package is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, ensuring open collaboration and network-copyleft protection for academic and open-source projects.
+* **Commercial Dual-Licensing:** For enterprise organizations, manufacturers, or startups wishing to embed the Whittaker Zero-Invariant IP core into closed-source commercial software or hardware pipelines, proprietary commercial licenses and custom enterprise exceptions are available.
+
+For commercial licensing inquiries please contact:
+* **Licensing Agent:** J.E. Randolph 📧 `700josh.r@gmail.com`
+
+---
+
+## 📚 Citation
+
+If you use this repository, preprint, or formal verification package in your academic research or engineering designs, please cite it as follows:
+
+```bibtex
+@software{Reed_2026_Whittaker,
+  author = {Reed, Jonathan ƒ(n)},
+  title = {Formal Verification of Whittaker-Type Zero-Invariant Fields and Receiver Symmetry Breaking in Lean 4 and SystemVerilog},
+  year = {2026},
+  version = {1.0},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.22097352},
+  url = {[https://doi.org/10.5281/zenodo.22097352](https://doi.org/10.5281/zenodo.22097352)}
+}
+```
+
+---
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Lean 4](https://img.shields.io/badge/Lean-4-green.svg)](https://leanprover.github.io/)
+[![SystemVerilog](https://img.shields.io/badge/SystemVerilog-IEEE%201800--2023-orange.svg)](https://www.ieee.org/)
+[![Field: Electrodynamics](https://img.shields.io/badge/Field-Electrodynamics-blueviolet.svg)](https://github.com/AEjonanonymous/Whittaker-Zero-Invariant)
+
+Copyright © 2026 Jonathan ƒ(n) Reed. All rights reserved.
