@@ -1,3 +1,6 @@
+// Copyright (C) 2026 Jonathan f(n) Reed
+// License: GNU Affero General Public License (AGPL-3.0)
+
 module tb_WhittakerReceiver;
 import WhittakerTypes::*;
 
