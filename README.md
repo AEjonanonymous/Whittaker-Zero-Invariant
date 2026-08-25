@@ -180,7 +180,7 @@ No messages.
 ```
 ---
 
-## ⚡ Hardware Implementation & Verification (SystemVerilog)
+## 🎛️ Hardware Implementation & Verification (SystemVerilog)
 
 To demonstrate that the formal mathematics maps directly to executable silicon architectures, the boundary operator is implemented as a synchronous digital hardware module and verified using Icarus Verilog.
 
