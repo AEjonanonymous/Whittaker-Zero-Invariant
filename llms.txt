@@ -96,6 +96,7 @@ theorem receiver_symmetry_breaking
   norm_num at h_tension
 ```
 
+## Lean Tactic State Output
 ```lean
 ▼ mathlib-stable.lean:114:23
  ▼ Tactic state
@@ -245,4 +246,15 @@ import WhittakerTypes::*;
         $finish;
     end
 endmodule
+```
+
+## Simulation Log Output (`Icarus Verilog 12.0`)
+```SystemVerilog
+[2026-08-24 18:36:04 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv && unbuffer vvp a.out
+--- Starting Whittaker Hardware Verification ---
+Symmetric Mode | Alpha=0 | Output=0 | Detected=0
+Asymmetric Mode | Alpha=1 | Output=800 | Detected=1
+--- Testbench Passed Successfully ---
+testbench.sv:70: $finish called at 46 (1s)
+Done
 ```
