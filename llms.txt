@@ -96,6 +96,38 @@ theorem receiver_symmetry_breaking
   norm_num at h_tension
 ```
 
+```lean
+▼ mathlib-stable.lean:114:23
+ ▼ Tactic state
+  No goals
+ ▼ Expected type
+  p : WhittakerPotentials
+  x y z t : ℝ
+  b : ReceiverBoundary
+  h_wave : (evalDerivatives p x y z
+  t).dx = 0
+  h_tension : { dx := p.d2F_dx_dz x y z
+  t + p.d2G_dy_dt x y z t, dy :=
+  p.d2F_dy_dz x y z t - p.d2G_dx_dt x y
+  z t, dz := 0 - 0,
+        hx := 0, hy := 0, hz := 0 }.dz
+  =
+    -1
+  h_asymmetry : b.asymmetryFactor = 1
+  h_G_zero : p.d2G_dt_dt x y z t = 0
+  h_absurd : p.d2F_dz_dz x y z t = 0
+  ⊢ { dx := p.d2F_dx_dz x y z t +
+  p.d2G_dy_dt x y z t, dy :=
+  p.d2F_dy_dz x y z t - p.d2G_dx_dt x y
+  z t, dz := 0 - 0,
+        hx := 0, hy := 0, hz := 0 }.dz
+  =
+    -1
+
+▼ All Messages (0)
+No messages.
+```
+
 ---
 
 ## 2. Hardware Implementation (SystemVerilog)
