@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this research as follows."
+authors:
+  - name: "Jonathan ƒ(n)"
+title: "Formal Verification of Whittaker-Type Zero-Invariant Fields and Receiver Symmetry Breaking in Lean 4 and SystemVerilog"
+version: 1.0.0
+doi: 10.5281/zenodo.22097352
+date-released: 2026-08-25
