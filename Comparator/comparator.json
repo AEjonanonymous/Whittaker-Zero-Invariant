@@ -1,0 +1,8 @@
+{
+  "challenge": "Challenge.lean",
+  "solution": "Solution.lean",
+  "declarations": [
+    "real_zero_invariant_exists",
+    "receiver_symmetry_breaking"
+  ]
+}
