@@ -216,6 +216,7 @@ The rigorous formal verification of Whittaker-type zero-invariant fields and the
 ## 📦 Repository Contents
 
 * 💻 `main/ETWhittakerZeroInvariant.lean` - Machine-checked formal proof in Lean 4
+* 💻 `Comparator/Challenge.lean/Solution.lean` - Machine-checked formal proof in Comparator
 * 📡 `RTL/WhittakerReceiver.sv` - Synthesizable hardware receiver module.
 * ⚙️ `RTL/tb_WhittakerReceiver.sv` - Automated Icarus Verilog testbench module.
 * 📝 `Docs/Formal Verification of Whittaker-Type Zero-Invariant Fields and Receiver Symmetry Breaking in Lean 4 and SystemVerilog.pdf` - Complete pre-print manuscript.
