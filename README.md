@@ -26,7 +26,7 @@
 
 ## ✅ Formal Proof (Lean 4 and Comparator)
 
-The mathematical foundation of this repository is machine-checked using the Lean 4 theorem prover. It formally establishes both the existence of non-radiating zero-invariant states and the boundary symmetry-breaking operator.
+The mathematical foundation of this repository is machine-checked using the Lean 4 interactive theorem prover and Comparator. It formally establishes both the existence of non-radiating zero-invariant states and the boundary symmetry-breaking operator.
 
 ```lean
 -- Copyright (C) 2026 Jonathan f(n) Reed
