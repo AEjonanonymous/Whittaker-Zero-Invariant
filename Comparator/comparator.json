@@ -1,8 +1,13 @@
 {
-  "challenge": "Challenge.lean",
-  "solution": "Solution.lean",
-  "declarations": [
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
     "real_zero_invariant_exists",
     "receiver_symmetry_breaking"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
   ]
 }
